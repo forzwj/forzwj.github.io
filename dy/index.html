@@ -126,12 +126,19 @@
 
 <p></p><p></p>
 
-<form id="search" name="searchtype" method="post" action="http://so.qnvod.net:8881" accept-charset="gbk" target="_blank">
+<form id="search" name="searchtype" method="post" action="http://so.qnvod.net:8881" accept-charset="utf8" target="_blank">
   <div align="center">
     <table width="80%" align="center" bgcolor="#FFFFFF">
       <tr align="center" valign="middle" bgcolor="#CCCCCC">
         <td height="65"><a href="http://www.yingshidaquan.cc/" target="_blank"><img src="http://bbs.dvbbs.net/UploadFile/2012-9/201291123201765377.png" height="65" align="bottom" border="0"></a>
-  <input type="text" id="kw" name="wd" class="search-input" placeholder="TVB/国产连续剧/电影"><input type="submit" name="submit" class="serach_buton" onmouseover="this.className='serach_over'" onmouseout="this.className='serach_buton'" value="搜索"/></td></tr></table>
+  <select class="select1" id="keytype" name="keytype"> 
+        <option value="1">影片名称</option>
+        <option value="starring">影片主演</option>
+        <option value="area">影片地区</option>
+        <option value="letter">影片首字母</option>
+</select>
+  <input type="text" name="keyword" id="keyword" type="text" class="search-input" placeholder="TVB/国产连续剧/电影">
+  <input type="submit" class="but" onmouseover="this.className='serach_over'" onmouseout="this.className='serach_buton'" value="搜索"/></td></tr></table>
   </div>
 </form>
 
