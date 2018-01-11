@@ -3,22 +3,90 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="icon" href="ico.ico" type="image/x-icon"/>
+<style type="text/css">
+.ss {
+	color: #808080;
+}
+</style>
 <title>影视快搜</title>
 </head>
 
 <body>
+<div align="center">
+<!七七电视>
 <form id="searchword" name="searchword" method="POST" action="http://www.77ds.net/search.asp" accept-charset="gb2312" target="_blank">
   <div align="center">
     <table width="80%" align="center" bgcolor="#FFFFFF">
       <tr align="center" valign="middle" bgcolor="#FFFFFF"><td height="65">
   <a href="http://www.77ds.net/" target="_blank"><img src="http://www.77ds.net/template/77ds/images/logo.png" align="bottom" border="0"></a>
-  <input type="text" id="kw" name="searchword" class="inputtxt inputclear" placeholder="港澳台美日韩电视剧/电影"/>
+  <input name="searchword" type="text" class="inputtxt inputclear" id="kw" placeholder="港澳台美日韩电视剧/电影"/>
   <input type="submit" id="searchbutton"  class="inputbtn" value="搜索" /></td></tr></table>
   </div>
 </form>
 
 <p></p><p></p>
 
+<!全能影视>
+<form id="search" name="searchtype" method="post" action="http://so.qnvod.net:8881" accept-charset="utf8" target="_blank">
+  <div align="center">
+    <table width="80%" align="center" bgcolor="#FFFFFF">
+      <tr align="center" valign="middle" bgcolor="#CCCCCC">
+        <td height="65"><a href="http://www.qnvod.net/" target="_blank"><img src="http://bbs.dvbbs.net/UploadFile/2012-9/201291123201765377.png" height="65" align="bottom" border="0"></a>
+  <select class="select1" id="keytype" name="keytype"> 
+        <option value="1">影片名称</option>
+        <option value="starring">影片主演</option>
+        <option value="area">影片地区</option>
+        <option value="letter">影片首字母</option>
+</select>
+  <input type="text" name="keyword" id="keyword" type="text" class="search-input" placeholder="TVB/国产连续剧/电影">
+  <input type="submit" class="but" onmouseover="this.className='serach_over'" onmouseout="this.className='serach_buton'" value="搜索"/></td></tr></table>
+  </div>
+</form>
+
+<p></p><p></p>
+
+<!66影视网>
+<form action="http://www.66ys.tv/e/search/index.php" method="post" name="searchform" id="searchform" accept-charset="gb2312" target="_blank">
+  <div align="center">
+    <table width="80%" align="center" bgcolor="#FFFFFF">
+      <tr align="center" valign="middle">
+        <td height="65" bgcolor="#FFFFFF"><a href="www.66ys.tv" target="_blank"><img src="http://www.66ys.tv/pic/logo.png" height="65" align="bottom" border="0"></a>
+  <input type="hidden" name="show" value="title,smalltext" />
+<input type="hidden" name="tempid" value="1" /><input type="hidden" name="tbname" value="Article" />
+      <input type="text" name="keyboard" class="input_key" placeholder="电影/连续剧"> 
+      <INPUT class="button" name="submit" type="submit" value="搜索"></td></tr></table>
+  </div>
+</form>
+
+<p></p><p></p>
+
+<!影视大全>
+<form id="formsearch" name="ffsearch" method="post" action="http://www.yingshidaquan.cc/index.php?s=vod-search" accept-charset="utf-8" target="_blank">
+  <div align="center">
+    <table width="80%" align="center" bgcolor="#FFFFFF">
+      <tr align="center" valign="middle" bgcolor="#CCCCCC">
+        <td height="65"><a href="http://www.yingshidaquan.cc/" target="_blank"><img src="http://www.yingshidaquan.cc/Templet/2tu2/css/logo.png" height="65" align="bottom" border="0"></a>
+  <input type="text" id="kw" name="wd" class="search-input" placeholder="电影"><input type="submit" name="submit" class="sub" value="搜索"/></td></tr></table>
+  </div>
+</form>
+
+<p></p><p></p>
+
+<!七七铺>
+<form action="http://www.qiqipu.com/search.asp" method="post" accept-charset="gb2312" target="_blank">
+  <div align="center">
+    <table width="80%" align="center" bgcolor="#FFFFFF">
+      <tr align="center" valign="middle">
+        <td height="65" bgcolor="#FFFFFF"><a href="http://www.qiqipu.com/" target="_blank"><img src="http://js.yulzm.com/qiqipu/css/logo.png" height="65" align="bottom" border="0"></a>
+  <input type="text" value="" class="in l" name="searchword" placeholder="电影"/>
+            <input type="submit" value="搜索" class="submit l" />
+          </td></tr></table>
+  </div>
+</form>
+
+<p></p><p></p>
+
+<!电影天堂>
 <form action="http://www.dy2018.com/e/search/index.php" method="post" name="searchform" id="searchform" accept-charset="gb2312" target="_blank">
   <div align="center">
     <table width="80%" align="center" bgcolor="#FFFFFF">
@@ -34,6 +102,7 @@
 
 <p></p><p></p>
 
+<!阳光电影>
 <form action="http://s.dydytt.net/plus/so.php" return false;" accept-charset="gb2312" target="_blank">
   <div align="center">
     <table width="80%" align="center" bgcolor="#FFFFFF">
@@ -46,6 +115,7 @@
 
 <p></p><p></p>
 
+<!BT电影天堂>
 <form action='http://www.btbtdy.com/s.php' id="formsearch" method="get" method="get" autocomplete="off" class="searchform" accept-charset="UTF-8" target="_blank">
 <div align="center">
   <table width="80%" align="center" bgcolor="#FFFFFF">
@@ -57,6 +127,7 @@
 
 <p></p><p></p>
 
+<!比特大雄>
 <form method="get" id="searchform" action="http://www.btdx8.com/" accept-charset="UTF-8" target="_blank">
 <div align="center">
   <table width="80%" align="center" bgcolor="#FFFFFF">
@@ -70,6 +141,7 @@
 
 <p></p><p></p>
 
+<!BT天堂>
 <form action="http://www.bttt.la/s.php" method="get" name="sform" accept-charset="UTF-8" target="_blank">
 <div align="center">
   <table width="80%" align="center" bgcolor="#cccccc">
@@ -88,61 +160,9 @@
 
 <p></p><p></p>
 
-<form action="http://www.66ys.tv/e/search/index.php" method="post" name="searchform" id="searchform" accept-charset="gb2312" target="_blank">
-  <div align="center">
-    <table width="80%" align="center" bgcolor="#FFFFFF">
-      <tr align="center" valign="middle">
-        <td height="65" bgcolor="#FFFFFF"><a href="www.66ys.tv" target="_blank"><img src="http://www.66ys.tv/pic/logo.png" height="65" align="bottom" border="0"></a>
-  <input type="hidden" name="show" value="title,smalltext" />
-<input type="hidden" name="tempid" value="1" /><input type="hidden" name="tbname" value="Article" />
-      <input type="text" name="keyboard" class="input_key" placeholder="电影/连续剧"> 
-      <INPUT class="button" name="submit" type="submit" value="搜索"></td></tr></table>
-  </div>
-</form>
-
-<p></p><p></p>
-
-<form id="formsearch" name="ffsearch" method="post" action="http://www.yingshidaquan.cc/index.php?s=vod-search" accept-charset="utf-8" target="_blank">
-  <div align="center">
-    <table width="80%" align="center" bgcolor="#FFFFFF">
-      <tr align="center" valign="middle" bgcolor="#CCCCCC">
-        <td height="65"><a href="http://www.yingshidaquan.cc/" target="_blank"><img src="http://www.yingshidaquan.cc/Templet/2tu2/css/logo.png" height="65" align="bottom" border="0"></a>
-  <input type="text" id="kw" name="wd" class="search-input" placeholder="电影"><input type="submit" name="submit" class="sub" value="搜索"/></td></tr></table>
-  </div>
-</form>
-
-<p></p><p></p>
-
-<form action="http://www.qiqipu.com/search.asp" method="post" accept-charset="gb2312" target="_blank">
-  <div align="center">
-    <table width="80%" align="center" bgcolor="#FFFFFF">
-      <tr align="center" valign="middle">
-        <td height="65" bgcolor="#FFFFFF"><a href="http://www.qiqipu.com/" target="_blank"><img src="http://js.yulzm.com/qiqipu/css/logo.png" height="65" align="bottom" border="0"></a>
-  <input type="text" value="" class="in l" name="searchword" placeholder="电影"/>
-            <input type="submit" value="搜索" class="submit l" />
-          </td></tr></table>
-  </div>
-</form>
-
-<p></p><p></p>
-
-<form id="search" name="searchtype" method="post" action="http://so.qnvod.net:8881" accept-charset="utf8" target="_blank">
-  <div align="center">
-    <table width="80%" align="center" bgcolor="#FFFFFF">
-      <tr align="center" valign="middle" bgcolor="#CCCCCC">
-        <td height="65"><a href="http://www.qnvod.net/" target="_blank"><img src="http://bbs.dvbbs.net/UploadFile/2012-9/201291123201765377.png" height="65" align="bottom" border="0"></a>
-  <select class="select1" id="keytype" name="keytype"> 
-        <option value="1">影片名称</option>
-        <option value="starring">影片主演</option>
-        <option value="area">影片地区</option>
-        <option value="letter">影片首字母</option>
-</select>
-  <input type="text" name="keyword" id="keyword" type="text" class="search-input" placeholder="TVB/国产连续剧/电影">
-  <input type="submit" class="but" onmouseover="this.className='serach_over'" onmouseout="this.className='serach_buton'" value="搜索"/></td></tr></table>
-  </div>
-</form>
-
-
-
+<font color="#AAAAAA" size="1">
+本网页更新于2018-1-11
+</font>
+</div>
 </body>
 </html>
